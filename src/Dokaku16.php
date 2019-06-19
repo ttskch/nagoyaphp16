@@ -8,7 +8,9 @@ class Dokaku16
 {
     public function run(string $input) : string
     {
-        // implement me
-        return '*****/*9*9*/*9*8*/*9*9*/82**7';
+        $map = InputParser::parse($input);
+        $map->walkFrom(0, 2);
+
+        return (string)$map;
     }
 }
