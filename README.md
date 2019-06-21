@@ -21,3 +21,7 @@ $ composer test
 ```
 
 [Nagoyaphp\Dokaku15\Dokaku16Test::test()](/tests/Dokaku16Test.php#L24) のテストが全てパスすればOK。
+
+## 解答例
+
+https://github.com/ttskch/nagoyaphp16/commit/eed48057990f5a83a1cbd7ebffb9e32403dd4e7c
